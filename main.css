@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+	
+
+header { 
+	width: 100%;
+	
+}
+	
+	.navbar {
+
+	background-color: white;
+	position: absolute;
+	top: 25%;
+	left: 40%;
+	right: 0px;
+	list-style: none;
+	text-align: center;
+	padding: 15px 0px 15px 0px;
+
+}
+
+.navbar li {
+	display: inline-block;
+	padding-right: 3%;
+	padding-left: 3%;
+	transform: translate(-3%,-3%);
+	transition: all .25s ease;
+	font-weight: bold;
+	margin: 0;
+
+}
+
+.logo {
+	position: absolute;
+	top: -20px;
+	left: 50%;
+	transform: translateX(-55%);
+	width: 400px;
+	height: 200px;
+}
+
+
+.navbar a {
+	
+	text-decoration: none;
+	color: black;
+}
+
+.navbar a:hover {
+	color: #E50914;
+	border-bottom: 1px solid #E50914;
+
+}
+
+.active {
+	color: #E50914;
+	border-bottom: 1px solid #E50914;
+}
+
+.left {
+	width: 50%;
+}
+
+.contents {
+	position: relative;
+}
+
+.contents h1 {
+	text-align: center;
+	position: relative;
+	top: 250px;
+	font-size: 40px;
+}
+
+.contents p {
+	text-align: center;
+	font-size: 15px;
+	position: relative;
+	top: 260px;
+}
+
+.btn {
+	position: absolute;
+	top: 120px;
+	font-size: 10px;
+	color: #E50914;
+}
+
+.btn a {
+	text-decoration: none;
+	color: #E50914;
+	font-weight: bold;
+}
+
+.btn1:hover, .btn2:hover {
+	background-color: #E50914;
+	}
+
+.btn1 a:hover, .btn2 a:hover {
+	color: white;
+}
+
+.btn1 {
+	float: left;
+	padding: 7px 20px;
+	position: absolute;
+	left: 180px;
+	border: 2px solid #E50914 ;
+	border-radius: 25px;
+	
+}
+
+.btn2 {
+	float: right;
+	padding: 7px 20px;
+	position: absolute;
+	left: 200px;
+	border: 2px solid #E50914 ;
+	border-radius: 25px;
+	
+}
+
+.right {
+	position: absolute;
+	right: 50%;
+
+}
+
+.right img {
+	position: absolute;
+	top: 150px;
+	width: 200px;
+	height: auto;
+	border-radius: 20px;
+}
+
+.col1 {
+	position: absolute;
+	left: -100px;
+	
+}
+
+.col2 {
+	position: absolute;
+	left: 150px;
+}
+
+.col3 {
+	position: absolute;
+	left: 400px;
+}
+
+.right h2 {
+	font-size: 15px;
+	top: 475px;
+	width: 200px;
+	padding-left: 40px;
+}
