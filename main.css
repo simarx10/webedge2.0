@@ -178,7 +178,7 @@ section {
 	width: 100%;
 	height: 100vh;
 	box-sizing: border-box;
-	padding: 50px 0;
+	padding: 500px 0;
 }
 
 a {
@@ -225,6 +225,5 @@ li{
 	width: 100%
 	height: 40%;
 	background: rgba(255, 255, 255, .1);
-	z-index: 1;
 	transform: skewY(-5deg) scale(1.5); 
 }
