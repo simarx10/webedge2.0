@@ -181,7 +181,7 @@ section {
 	padding: 500px 0;
 }
 
-a {
+.link {
 	text-decoration: none;
 	background-color: red;
 	color: white;
